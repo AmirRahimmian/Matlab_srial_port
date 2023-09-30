@@ -1,0 +1,8 @@
+This code is written for saving data through the serial port.
+
+Serial port must be set in the code (s=serial('COM3');) : it can easily be found in the control panel-> Device manager-> (USB controller)
+
+s.BaudRate=115200; have set based on my board setting.
+
+
+Both the STM32 serial port and Arduino boards have been tested successfully.
